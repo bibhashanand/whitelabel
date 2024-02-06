@@ -4,22 +4,22 @@
 
 step 1
 
-   bench get-app https://github.com/bibhashanand/whitelabel
+    bench get-app https://github.com/bibhashanand/whitelabel
 
 step 2
 
-   bench --site sitename install-app whitelabel
+    bench --site sitename install-app whitelabel
 
 step 3
 
-   bench migrate
-   bench restart
-   bench clear-cache
+    bench migrate
+    bench restart
+    bench clear-cache
 
 ## to remove app
 
-   bench --site sitename uninstall-app whitelabel
+    bench --site sitename uninstall-app whitelabel
 
 to delete from frappe
 
-   bench remove-app whitelabel
+    bench remove-app whitelabel

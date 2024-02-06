@@ -49,7 +49,7 @@ web_include_css = "/assets/whitelabel/css/whitelabel_web.css"
 # get_website_user_home_page = "whitelabel.utils.get_home_page"
 
 website_context = {
-	"favicon": app_logo or "/assets/whitelabel/images/oplossing_favicon.png",
+	"favicon": app_logo or "/assets/whitelabel/images/oplossing.png",
 	"splash_image": app_logo or "/assets/whitelabel/images/oplossing.png"
 }
 after_migrate = ['whitelabel.api.whitelabel_patch']
