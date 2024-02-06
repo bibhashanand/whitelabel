@@ -15,3 +15,11 @@ step 3
       bench migrate
       bench restart
       bench clear-cache
+
+## to remove app
+
+      bench --site sitename uninstall-app whitelabel
+
+to delete from frappe
+
+      bench remove-app whitelabel
