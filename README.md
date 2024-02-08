@@ -18,7 +18,7 @@ step 3
 
 ## to remove app
 
-    bench --site sitename uninstall-app whitelabel
+    bench --site [sitename] uninstall-app whitelabel
 
 to delete from frappe
 
