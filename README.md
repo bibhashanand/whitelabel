@@ -8,7 +8,7 @@ step 1
 
 step 2
 
-    bench --site sitename install-app whitelabel
+    bench --site [sitename] install-app whitelabel
 
 step 3
 
