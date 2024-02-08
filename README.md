@@ -12,7 +12,7 @@ step 2
 
 step 3
 
-    bench migrate
+     bench --site [site-name] migrate
     bench restart
     bench clear-cache
 
