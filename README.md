@@ -12,9 +12,9 @@ step 2
 
 step 3
 
-     bench --site [site-name] migrate
+    bench --site [site-name] migrate
     bench restart
-    bench clear-cache
+    bench --site [site-name] clear-cache
 
 ## to remove app
 
